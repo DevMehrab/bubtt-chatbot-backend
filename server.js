@@ -69,7 +69,7 @@ app.get("/", (req, res) => {
     version: "1.0.0",
     status: "✅ Running",
     description: "AI-powered food waste reduction chatbot",
-    baseUrl: "http://localhost:3000",
+    baseUrl: "https://dashboard.render.com/web/srv-d4g80sali9vc73d35vm0",
     documentation: {
       chat: "POST /api/chat - Send message to chatbot",
       analytics: "GET /api/user/:userId/analytics - Get sustainability metrics",
