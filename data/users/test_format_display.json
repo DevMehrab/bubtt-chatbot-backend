@@ -1,0 +1,37 @@
+{
+  "userId": "test_format_display",
+  "createdAt": "2025-11-21T10:44:18.712Z",
+  "lastActive": "2025-11-21T10:44:21.575Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721861575",
+      "timestamp": "2025-11-21T10:44:21.575Z",
+      "userMessage": "How should I store leftover dal?",
+      "botResponse": "Hello! I can help you with storing leftover dal to reduce waste.\n\n• Allow the dal to cool completely before refrigerating. Store it in an airtight container in the refrigerator. Properly stored, dal can last for 3-4 days.\n\n• To freeze dal, portion it into freezer-safe containers or bags. Frozen dal can maintain its quality for about 2-3 months. Thaw it in the refrigerator before reheating.\n\n• Consider making dal paratha from leftover dal. Mix the dal with wheat flour, spices, and a little oil to form a dough. Roll out parathas and cook them on a tawa. (Estimated cost: 40 BDT)\n\nReducing food waste helps lower greenhouse gas emissions from landfills.\n\nNext step: Refrigerate your dal in an airtight container as soon as it cools down.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

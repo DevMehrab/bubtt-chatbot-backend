@@ -1,0 +1,52 @@
+{
+  "userId": "quick_test",
+  "createdAt": "2025-11-21T10:14:52.278Z",
+  "lastActive": "2025-11-21T10:17:49.320Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720098676",
+      "timestamp": "2025-11-21T10:14:58.676Z",
+      "userMessage": "Hello",
+      "botResponse": "Namaste! I'm NourishAI, your food waste reduction assistant, here to help you make the most of your meals while being kind to the environment and your wallet. It's great to connect with you!\n\nI see your SDG score is 50/100. Don't worry, we can definitely improve that together! Given you're cooking for one and have a moderate budget, there are lots of ways we can reduce food waste, eat healthily, and save money.\n\nHere are a few things I can help you with:\n\n1.  **Meal Planning & Budgeting:** We can create a weekly meal plan that fits your budget, using affordable and readily available ingredients. For example, incorporating more *dal* (lentils) and seasonal vegetables like *lau* (bottle gourd) can be both nutritious and cost-effective. A week's worth of *dal* and rice might cost around 300-400 BDT, depending on the type of *dal* and rice you choose.\n    *   **Why:** Planning prevents impulse buys and ensures you use what you have. This reduces food waste and keeps you on budget.\n    *   **Environmental Impact:** Eating more plant-based meals reduces your carbon footprint.\n\n2.  **Leftover Transformation:** Got leftover *bhat* (rice)? We can turn it into delicious *bhater bora* (rice fritters) or *firni* (rice pudding)! No food goes to waste.\n    *   **Why:** It's creative, delicious, and prevents perfectly good food from ending up in the bin.\n    *   **Environmental Impact:** Reduces methane emissions from landfills.\n\n3.  **Smart Storage Tips:** Did you know storing *piaz* (onions) and *alu* (potatoes) separately prevents them from spoiling quickly?\n    *   **Why:** Proper storage prolongs the life of your food.\n    *   **Environmental Impact:** Less waste means less demand for resources.\n\nI can also help you find local food sharing networks in your area if you have excess food you'd like to donate.\n\nWhat are you most interested in exploring today? Perhaps you have some ingredients on hand that you'd like to use up? Let me know and we can start cooking up some solutions!\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763720269320",
+      "timestamp": "2025-11-21T10:17:49.320Z",
+      "userMessage": "Hello",
+      "botResponse": "Namaste again! It's nice to hear from you. Since we last spoke, do you have any food items you want to use up before they spoil? Knowing that will help me give you the most relevant suggestions.\n\nBut, in the meantime, let's brainstorm some general ideas. Since you're cooking for one and aiming to boost your SDG score, focusing on minimizing waste and maximizing nutrition is key.\n\nHere are a few avenues we could explore:\n\n1.  **\"Eat the Rainbow\" Challenge:** Let's make sure your plate has a variety of colors from fruits and vegetables each day. In Bangladesh, we are blessed with so many affordable options! For example, adding a small portion of *lal shak* (red spinach) to your daily meal will cost only about 10-15 BDT and provides essential vitamins.\n    *   **Why:** Diverse nutrients are great for your health, and eating more produce can reduce your reliance on more resource-intensive foods.\n    *   **Environmental Impact:** Supports biodiversity and reduces your carbon footprint compared to meat-heavy diets.\n\n2.  **Perfecting Portion Control:** It's easy to overcook when you're just cooking for yourself. Try using a smaller *bati* (bowl) for rice and *tarkari* (curry) to help control portions. Any leftover rice can be turned into delicious *panta bhat* (fermented rice) for breakfast the next day!\n    *   **Why:** Prevents food waste from over-serving and introduces you to different local cuisine.\n    *   **Environmental Impact:** Less food waste going to landfill.\n\n3.  **Utilizing Local Markets:** Visiting your local *bazar* (market) can be a great way to find seasonal produce at lower prices. Right now, *pepe* (papaya) and *kola* (banana) are plentiful and cheap. You can get a kilo of *pepe* for around 30-40 BDT.\n    *   **Why:** Supports local farmers, reduces transportation costs, and exposes you to fresher, more affordable ingredients.\n    *   **Environmental Impact:** Supports local agriculture, which tends to be more sustainable than large-scale industrial farming.\n\nWhich of these sounds most interesting to you? Or perhaps you'd like me to suggest something else? Let me know what you're in the mood for!\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

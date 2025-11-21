@@ -1,0 +1,21 @@
+{
+  "userId": "123 User",
+  "createdAt": "2025-11-21T10:24:36.148Z",
+  "lastActive": "2025-11-21T10:24:36.148Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 0,
+    "sdgScore": 50
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "userId": "user2_test",
+  "createdAt": "2025-11-21T10:17:30.100Z",
+  "lastActive": "2025-11-21T10:17:30.100Z",
+  "preferences": {
+    "language": "English",
+    "budget": "high",
+    "dietaryPreferences": [
+      "Non-vegetarian"
+    ],
+    "familySize": 2,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 0,
+    "sdgScore": 50
+  }
+}

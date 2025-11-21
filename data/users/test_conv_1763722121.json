@@ -1,0 +1,52 @@
+{
+  "userId": "test_conv_1763722121",
+  "createdAt": "2025-11-21T10:48:41.085Z",
+  "lastActive": "2025-11-21T10:48:47.112Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722123187",
+      "timestamp": "2025-11-21T10:48:43.187Z",
+      "userMessage": "How to store dal?",
+      "botResponse": "Hello! I can help you with dal storage and waste reduction.\n\n• Store cooked dal in an airtight container in the refrigerator for up to 3-4 days.\n\n• For dry dal, keep it in a cool, dark, and dry place, like a pantry, in an airtight container. This can extend its shelf life to 1-2 years.\n\n• You can make dal paratha using leftover dal. The cost would be approximately 40 BDT for one person.\n\nReducing food waste helps lower greenhouse gas emissions from landfills in Bangladesh.\n\nNext step: Check your dal supply and store it properly to prevent spoilage.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722127112",
+      "timestamp": "2025-11-21T10:48:47.112Z",
+      "userMessage": "What about nutrition?",
+      "botResponse": "Hello! I'm happy to help you with nutrition advice tailored for you.\n\n• Focus on incorporating more iron into your diet.\n\n• Two budget-friendly options include:\n    *  Spinach (Palak): Approximately 20 BDT per bundle.\n    *  Lentils (Dal): Approximately 80 BDT per kg.\n\nIron is essential for energy levels and overall health.\n\nNext step: Try adding spinach to your next dal dish to boost your iron intake affordably.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

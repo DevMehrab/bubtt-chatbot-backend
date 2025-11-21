@@ -1,0 +1,37 @@
+{
+  "userId": "verification_user",
+  "createdAt": "2025-11-21T10:17:47.855Z",
+  "lastActive": "2025-11-21T10:17:52.808Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720272808",
+      "timestamp": "2025-11-21T10:17:52.808Z",
+      "userMessage": "নমস্কার",
+      "botResponse": "নমস্কার! 😊\n\nYour SDG score is 50/100, which means there's definitely room to improve your food habits for a healthier planet and wallet! I'm NourishAI, and I'm here to help you reduce food waste, eat balanced meals, and save money, all while considering our beautiful Bangladesh!\n\nSince this is our first chat, let me introduce you to what I can do for you, keeping in mind you're an omnivore with a moderate budget, living alone:\n\n1.  **Struggling to decide what to cook with what you have?** Just tell me what's in your fridge or pantry. I can suggest delicious recipes using local ingredients, minimizing waste. For example, if you have leftover *bhaat* (rice), I could suggest making *bhater bora* (rice fritters)!\n\n2.  **Want to plan budget-friendly meals?** I can create a weekly meal plan that considers seasonal Bangladeshi produce, keeping costs down. For instance, *dal* (lentils) and *sobji* (vegetables) are incredibly affordable and nutritious! We can aim for something under 500 BDT a day for you.\n\n3.  **Curious about the environmental impact of your food choices?** We can talk about how reducing meat consumption even a little, or choosing local over imported goods, can significantly lower your carbon footprint in Bangladesh.\n\nHow can I help you today? Let's work together to make a positive change, one meal at a time! 😊\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

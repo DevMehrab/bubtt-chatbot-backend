@@ -1,0 +1,21 @@
+{
+  "userId": "test_1763721843",
+  "createdAt": "2025-11-21T10:44:03.062Z",
+  "lastActive": "2025-11-21T10:44:03.062Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 0,
+    "sdgScore": 50
+  }
+}

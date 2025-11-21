@@ -1,0 +1,67 @@
+{
+  "userId": "user123",
+  "createdAt": "2025-11-21T10:11:15.736Z",
+  "lastActive": "2025-11-21T11:00:37.792Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721122256",
+      "timestamp": "2025-11-21T10:32:02.256Z",
+      "userMessage": "I have fish, meet and potato. What should I cook today?",
+      "botResponse": "Okay, here's a simple meal plan using fish, meat, and potatoes for one person on a moderate budget:\n\n• Main suggestion: Fish and potato curry with rice (approx. 80 BDT). This is a balanced meal with protein, carbs, and some vegetables.\n\n• Alternative 1: Potato and meat stew (approx. 100 BDT). It’s a heartier option, good for a filling meal.\n\n• Alternative 2: Fish cutlets with mashed potatoes (approx. 120 BDT). This is a slightly more elaborate but tasty option.\n\nShopping tip: Buy potatoes and fish from local markets; they're often cheaper and fresher than supermarkets. This also reduces food miles.\n\nNext step: Decide which option you prefer and check if you have the necessary spices at home.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722786022",
+      "timestamp": "2025-11-21T10:59:46.022Z",
+      "userMessage": "I have budget of 2000 taka this month. Prepare a meal budget for this.",
+      "botResponse": "Okay, let's create a meal budget for you based on 2000 BDT for the month.\n\n• Weekly Budget: Approximately 500 BDT per week, or about 70 BDT per day for food. This requires careful planning.\n\n• Focus on Staples: Prioritize rice, lentils (dal), seasonal vegetables, and eggs as your primary food sources. These are affordable and nutritious. Consider chicken or fish once or twice a week as affordable protein sources.\n\n• Sample Daily Meal Plan (approx. 70 BDT):\n\n   * Breakfast (15 BDT): Ruti (flatbread) with dal or a boiled egg.\n   * Lunch (25 BDT): Rice with vegetable curry and dal.\n   * Dinner (30 BDT): Rice with fish/chicken curry (smaller portion) or vegetable curry.\n\nRemember to buy from local markets to save money and reduce food miles.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722837792",
+      "timestamp": "2025-11-21T11:00:37.792Z",
+      "userMessage": "prepare the budget with quantity of meal and taka",
+      "botResponse": "Okay, I can help you refine your meal budget and plan quantities.\n\n• For your 2000 BDT monthly budget, aim for about 66 BDT per day.\n\n• Focus on buying 5 kg of rice (around 250 BDT), 2 kg of lentils (around 300 BDT), and seasonal vegetables (around 600 BDT). Supplement with 1 tray of eggs (around 120 BDT) and occasional fish or chicken (around 730 BDT). This ensures balanced nutrition within budget.\n\n• A cheaper alternative: Reduce meat/fish to once a week and increase lentil and vegetable intake.\n\nRemember to compare prices at different local markets to maximize your budget.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

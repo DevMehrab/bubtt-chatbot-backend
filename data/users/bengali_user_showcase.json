@@ -1,0 +1,52 @@
+{
+  "userId": "bengali_user_showcase",
+  "createdAt": "2025-11-21T10:28:17.125Z",
+  "lastActive": "2025-11-21T10:28:32.130Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720899433",
+      "timestamp": "2025-11-21T10:28:19.433Z",
+      "userMessage": "আমার ভাত অনেক বেশি রান্না হয়েছে",
+      "botResponse": "আলাইকুম আস্সালাম! অতিরিক্ত ভাত নিয়ে চিন্তার কিছু নেই।\n\n• প্রধান পরামর্শ: বাসি ভাত দিয়ে মজাদার ভাতের সবজি তৈরি করুন (খরচ: ২৫ টাকা)। এটি স্বাস্থ্যকর এবং আপনার বাজেটের সাথে মানানসই।\n• বিকল্প ১: ডিম দিয়ে ফ্রাইড রাইস তৈরি করতে পারেন (খরচ: ৩৫ টাকা)।\n• বিকল্প ২: দই ভাত একটি স্বাস্থ্যকর বিকল্প (খরচ: ২০ টাকা)।\n\nআপনি কি জানতে চান আমি কিভাবে আপনাকে সাশ্রয়ী মূল্যের খাবারের পরিকল্পনা করতে সাহায্য করতে পারি?\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763720912130",
+      "timestamp": "2025-11-21T10:28:32.130Z",
+      "userMessage": "আমার ভাত অনেক বেশি রান্না হয়েছে",
+      "botResponse": "আলাইকুম আস্সালাম! অতিরিক্ত ভাত নিয়ে চিন্তার কিছু নেই।\n\n• প্রধান পরামর্শ: বাসি ভাত দিয়ে মজাদার ভাতের সবজি তৈরি করুন (খরচ: ২৫ টাকা)। এটি স্বাস্থ্যকর এবং আপনার বাজেটের সাথে মানানসই।\n• বিকল্প ১: ডিম দিয়ে ফ্রাইড রাইস তৈরি করতে পারেন (খরচ: ৩৫ টাকা)।\n• বিকল্প ২: দই ভাত একটি স্বাস্থ্যকর বিকল্প (খরচ: ২০ টাকা)।\n\nআপনি কি জানতে চান আমি কিভাবে আপনাকে সাশ্রয়ী মূল্যের খাবারের পরিকল্পনা করতে সাহায্য করতে পারি?\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

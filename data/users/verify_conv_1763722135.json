@@ -1,0 +1,52 @@
+{
+  "userId": "verify_conv_1763722135",
+  "createdAt": "2025-11-21T10:48:56.006Z",
+  "lastActive": "2025-11-21T10:49:02.461Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722139187",
+      "timestamp": "2025-11-21T10:48:59.187Z",
+      "userMessage": "How to reduce food waste?",
+      "botResponse": "Hello! I can help you minimize food waste.\n\n• Plan your meals for the week before grocery shopping. This prevents impulse buys that often go to waste.\n\n• Store food properly: Store vegetables in the refrigerator crisper drawer and keep bread in a cool, dry place. This extends shelf life.\n\n• Cook only what you need: Prepare smaller portions to avoid leftovers that might spoil.\n\n• Use leftovers creatively: Turn leftover chicken curry into delicious chicken wraps (approx. 50 BDT).\n\nReducing food waste lowers greenhouse gas emissions from landfills.\n\nNext step: Start by planning your meals for the upcoming week.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722142461",
+      "timestamp": "2025-11-21T10:49:02.461Z",
+      "userMessage": "What vegetables should I buy?",
+      "botResponse": "Hello! I can suggest some vegetables that are great for reducing food waste.\n\n• Try buying vegetables that last longer, like potatoes (20 BDT/kg) and onions (30 BDT/kg).\n\n• Opt for seasonal vegetables, as they are fresher and more affordable. For example, right now, you can find plenty of inexpensive gourds like Lau (30 BDT each).\n\n• Consider buying frozen vegetables (100 BDT/pack). They won't spoil quickly, and you can use only what you need.\n\nNext step: Head to your local bazaar and look for seasonal vegetables that are on sale!\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

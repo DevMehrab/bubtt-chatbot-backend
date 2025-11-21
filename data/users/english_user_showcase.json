@@ -1,0 +1,52 @@
+{
+  "userId": "english_user_showcase",
+  "createdAt": "2025-11-21T10:28:19.465Z",
+  "lastActive": "2025-11-21T10:28:34.585Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720901599",
+      "timestamp": "2025-11-21T10:28:21.599Z",
+      "userMessage": "How to make budget meals for 5 people?",
+      "botResponse": "Okay, let's plan some budget-friendly meals for one person.\n\n• Main suggestion: A simple meal could be rice with lentil soup (dal) and a fried egg. This costs around 60 BDT. It's nutritious and filling.\n\n• Alternative 1: Vegetable khichuri (rice and lentil porridge with vegetables) - Approximately 70 BDT. This is a good source of fiber and vitamins.\n\n• Alternative 2: Rice with chicken curry and vegetables (around 120 BDT). Consider buying smaller portions of chicken to save money.\n\nShopping Tip: Buy vegetables and lentils from local markets; they're cheaper and fresher. This also reduces your carbon footprint by supporting local farmers.\n\nNext step: Try making the lentil soup with a fried egg for dinner tonight!\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763720914585",
+      "timestamp": "2025-11-21T10:28:34.585Z",
+      "userMessage": "How to make budget meals for 5 people?",
+      "botResponse": "Okay, let's plan some budget-friendly meals for five people.\n\n• Main suggestion: Rice with vegetable curry and lentil soup (dal). This meal costs around 300 BDT. It's a balanced meal with carbohydrates, protein, and vitamins.\n\n• Alternative 1: Khichuri (rice and lentil porridge with mixed vegetables) - Approximately 350 BDT. This is a wholesome, one-pot meal that is easy to prepare and nutritious.\n\n• Alternative 2: Rice with fish curry (small fish like punti or mola) and seasonal vegetables - around 500 BDT. This option provides a good source of protein and essential nutrients.\n\nShopping Tip: Visit the local bazaar early in the morning for the freshest and cheapest vegetables. This will save money and reduce food waste.\n\nNext step: Try making the vegetable curry with lentil soup for dinner tonight!\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "userId": "test_1763722304",
+  "createdAt": "2025-11-21T10:51:44.466Z",
+  "lastActive": "2025-11-21T10:51:49.378Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722306418",
+      "timestamp": "2025-11-21T10:51:46.418Z",
+      "userMessage": "Store rice?",
+      "botResponse": "Hello! I can help you with rice storage tips.\n\n• Store cooked rice in an airtight container in the refrigerator. It will last for 2-3 days.\n\n• Ensure the rice cools down before refrigerating to prevent moisture buildup.\n\n• You can also freeze cooked rice for longer storage (up to 1 month).\n\n• Recipe to prevent waste: Egg Fried Rice (approx. 30 BDT). This is a quick way to use leftover rice with readily available ingredients.\n\nReducing food waste helps lower greenhouse gas emissions from landfills.\n\nNext step: Refrigerate your rice properly to extend its shelf life.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722309378",
+      "timestamp": "2025-11-21T10:51:49.378Z",
+      "userMessage": "Vegetables for nutrition?",
+      "botResponse": "Okay! Here are some vegetable options to boost your nutrition:\n\n• Focus on leafy green vegetables like spinach and red amaranth (lal shak) for essential vitamins and minerals.\n\n• Spinach (20 BDT/bundle) is rich in iron, while red amaranth (15 BDT/bundle) provides vitamin C and antioxidants.\n\n• These vegetables contribute to overall health and well-being.\n\nNext step: Incorporate spinach or red amaranth into your next meal for a nutritional boost.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

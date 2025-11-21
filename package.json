@@ -1,0 +1,31 @@
+{
+  "name": "nourish-ai-chatbot",
+  "version": "1.0.0",
+  "description": "AI-powered food waste reduction chatbot with meal optimization and sustainability tracking",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "seed": "node seed.js",
+    "demo": "node scripts/show_metrics.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "food-waste",
+    "sustainability",
+    "meal-planning",
+    "chatbot",
+    "ai"
+  ],
+  "author": "BUBT Hackathon Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "openai": "^4.24.1"
+  },
+  "devDependencies": {}
+}

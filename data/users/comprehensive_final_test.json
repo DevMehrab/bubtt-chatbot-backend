@@ -1,0 +1,143 @@
+{
+  "userId": "comprehensive_final_test",
+  "createdAt": "2025-11-21T10:38:26.992Z",
+  "lastActive": "2025-11-21T10:38:42.633Z",
+  "preferences": {
+    "language": "English",
+    "budget": "low",
+    "dietaryPreferences": [
+      "Vegetarian"
+    ],
+    "familySize": 5,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721510066",
+      "timestamp": "2025-11-21T10:38:30.066Z",
+      "userMessage": "How long can I store cooked dal?",
+      "botResponse": "You can store cooked dal safely with these tips:\n\n• Refrigerate: Store in an airtight container for up to 3-4 days.\n• Freezing: Freeze in portioned containers for up to 2-3 months.\n• Recipe: Use leftover dal to make dal paratha (estimated 60 BDT for ingredients).\n\nReducing food waste lessens environmental impact in Bangladesh.\n\nNext step: Refrigerate your dal properly.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721511959",
+      "timestamp": "2025-11-21T10:38:31.959Z",
+      "userMessage": "What's a budget meal for 5 people?",
+      "botResponse": "Okay, here's a budget-friendly meal plan for your family of 5:\n\n• Main meal: Khichuri (rice and lentils) with vegetables (around 150 BDT). It’s nutritious and filling.\n• Alternative: Egg curry with rice (approximately 120 BDT).\n\nShopping tip: Buy lentils and vegetables in bulk from local markets for better prices.\n\nNext step: Plan your grocery shopping for the week.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721514379",
+      "timestamp": "2025-11-21T10:38:34.379Z",
+      "userMessage": "How long can I store cooked dal?",
+      "botResponse": "Okay, here's how to store cooked dal and reduce waste:\n\n• Refrigerate: 3-4 days in an airtight container.\n• Freeze: 2-3 months in portioned containers.\n• Prevent Waste: Make dal puri (estimated 70 BDT for ingredients).\n\nProper storage prevents food waste, reducing landfill burden in Bangladesh.\n\nNext step: Freeze extra dal in small portions.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721516495",
+      "timestamp": "2025-11-21T10:38:36.495Z",
+      "userMessage": "What's a budget meal for 5 people?",
+      "botResponse": "Okay, here's another budget meal idea:\n\n• Main meal: Vegetable biryani (around 180 BDT). This is a filling and flavorful option.\n• Alternative: Lentil soup with roti (approximately 140 BDT).\n\nShopping tip: Look for vegetables that are in season for better prices at the local markets.\n\nNext step: Check your local market for vegetable prices.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721518465",
+      "timestamp": "2025-11-21T10:38:38.465Z",
+      "userMessage": "I have leftover rice and vegetables",
+      "botResponse": "Okay, here are some leftover transformation ideas:\n\n• Main: Vegetable rice cutlets (estimated 80 BDT for flour and spices).\n• Alternative: Vegetable fried rice with an egg (approximately 60 BDT).\n\nTotal cooking time: 20 minutes.\n\nNext step: Make vegetable rice cutlets for a snack.\n",
+      "intent": "leftoverRecipes",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721520404",
+      "timestamp": "2025-11-21T10:38:40.404Z",
+      "userMessage": "Vegetarian protein sources for my family?",
+      "botResponse": "Okay, here's how to add protein to your vegetarian meals:\n\n• Focus: Include more protein in your family's diet.\n• Options: Lentils (dal - 80 BDT/kg) are a great source, or chickpeas (chola - 90 BDT/kg).\n• Importance: Protein is essential for growth and energy.\n\nNext step: Add lentils to your next meal.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721522633",
+      "timestamp": "2025-11-21T10:38:42.633Z",
+      "userMessage": "What's the environmental impact of food waste?",
+      "botResponse": "Okay, here is the environmental impact:\n\n• Landfill Burden: Food waste decomposes and creates methane, a potent greenhouse gas.\n• Resource Waste: It wastes water and energy used in food production and transportation.\n• Impact in Bangladesh: Reduces pressure on Dhaka's overflowing landfills.\n\nNext step: Compost vegetable scraps to reduce landfill waste.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 5,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 7,
+    "sdgScore": 50
+  }
+}

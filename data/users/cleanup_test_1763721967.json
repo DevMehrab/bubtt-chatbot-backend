@@ -1,0 +1,37 @@
+{
+  "userId": "cleanup_test_1763721967",
+  "createdAt": "2025-11-21T10:46:07.342Z",
+  "lastActive": "2025-11-21T10:46:10.058Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721970058",
+      "timestamp": "2025-11-21T10:46:10.058Z",
+      "userMessage": "What's a quick meal plan for tomorrow with 300 BDT budget?",
+      "botResponse": "Hello! Here's a budget meal plan for you.\n\n• Lunch: Chicken Biryani (approx. 250 BDT) - a single serving is filling and provides protein and carbs.\n\n• Cheaper Alternative: Egg and Vegetable Khichuri (approx. 150 BDT) - equally nutritious and budget-friendly.\n\nShopping Tip: Buy vegetables from local markets for better prices.\n\nNext step: Plan to cook the Biryani and see if you have enough money for the rest of the week.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

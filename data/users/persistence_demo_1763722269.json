@@ -1,0 +1,67 @@
+{
+  "userId": "persistence_demo_1763722269",
+  "createdAt": "2025-11-21T10:51:09.918Z",
+  "lastActive": "2025-11-21T10:51:30.468Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722281320",
+      "timestamp": "2025-11-21T10:51:21.320Z",
+      "userMessage": "How to store leftover rice?",
+      "botResponse": "Hello! I can help you reduce food waste with proper storage techniques.\n\n• Cool the rice quickly: Spread the rice on a plate to cool it down faster, ideally within one hour.\n\n• Refrigerate promptly: Store the cooled rice in an airtight container in the refrigerator. Consume within 1-2 days.\n\n• Freezing: For longer storage, freeze the rice in a freezer-safe bag or container. It can last for up to 1 month.\n\n• Recipe to prevent waste: Make egg fried rice (approximately 30 BDT) the next day.\n\nReducing rice waste can lower methane emissions from landfills.\n\nNext step: Refrigerate your leftover rice properly for use within the next 1-2 days.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722287460",
+      "timestamp": "2025-11-21T10:51:27.460Z",
+      "userMessage": "What vegetables are rich in vitamins?",
+      "botResponse": "Hello! I can help you find some affordable, vitamin-rich vegetables.\n\n• Focus on dark leafy greens and colorful options like spinach and carrots.\n\n• Spinach (palong shak): Rich in Vitamin A and C, around 20 BDT per kg.\n\n• Carrots (gajor): Excellent source of Vitamin A, costing about 30 BDT per kg.\n\nThese vitamins are essential for good vision and a healthy immune system.\n\nNext step: Include spinach and carrots in your next meal for a vitamin boost.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722290468",
+      "timestamp": "2025-11-21T10:51:30.468Z",
+      "userMessage": "Suggest a meal plan for 300 BDT",
+      "botResponse": "Hello! Here is a cost-effective meal plan for you:\n\n• Chicken and vegetable curry with rice (approximately 250 BDT). Chicken provides protein, while vegetables offer essential vitamins.\n\n• Lentil soup (dal) with rice and a side of spinach (approximately 150 BDT). This is a budget-friendly and nutritious option.\n\nShopping tip: Buy seasonal vegetables from local markets for better prices.\n\nNext step: Try the lentil soup with rice for a budget-friendly meal.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

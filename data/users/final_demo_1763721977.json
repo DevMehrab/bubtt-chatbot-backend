@@ -1,0 +1,37 @@
+{
+  "userId": "final_demo_1763721977",
+  "createdAt": "2025-11-21T10:46:17.580Z",
+  "lastActive": "2025-11-21T10:46:20.564Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721980564",
+      "timestamp": "2025-11-21T10:46:20.564Z",
+      "userMessage": "What's a quick meal plan for tomorrow with 300 BDT budget?",
+      "botResponse": "Hello! I can help you with a quick, budget-friendly meal plan for tomorrow.\n\n• Breakfast: Egg and vegetable paratha (2 eggs: 20 BDT, vegetables: 30 BDT, flour: 20 BDT). Total: 70 BDT\n\n• Lunch: Rice with lentil soup (dal) and fried vegetables (rice: 30 BDT, dal: 20 BDT, vegetables: 30 BDT). Total: 80 BDT\n\n• Dinner: Chicken khichuri (rice: 40 BDT, lentils: 30 BDT, chicken: 80 BDT). Total: 150 BDT\n\n• Cheaper alternative: Replace chicken with eggs or vegetables to reduce cost.\n\nShopping tip: Buy vegetables from local markets for better prices.\n\nNext step: Check your pantry to see what ingredients you already have to further reduce costs.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

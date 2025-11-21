@@ -1,0 +1,71 @@
+{
+  "userId": "Punam",
+  "createdAt": "2025-11-21T10:20:05.373Z",
+  "lastActive": "2025-11-21T10:41:07.884Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [
+      ""
+    ],
+    "familySize": 1,
+    "allergies": [
+      ""
+    ],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720475905",
+      "timestamp": "2025-11-21T10:21:15.905Z",
+      "userMessage": "আমার কাছে চাল এবং ডাল, আলু ও মাংস আছে। আমি কি রান্না করতে পারি?",
+      "botResponse": "Assalamu Alaikum! Apnar kache chaal, daal, alu o mangsho ache, eta shune khushi holam. Eta diye toh onek kichu ranna kora jay! আপনার SDG স্কোর ৫০/১০০, তাই আমরা চেষ্টা করবো যেন খাবার অপচয় কমিয়ে স্বাস্থ্যকর এবং পরিবেশ-বান্ধব কিছু রান্না করতে পারেন।\n\nHere are a few ideas using your ingredients:\n\n1.  **Khichuri (খিচুড়ি):** Chaal, daal, alu, and mangsho shob diyei shudhu ekta bhalo khichuri hoye jete pare!\n\n    *   **Recipe:** চাল, ডাল একসাথে ধুয়ে আলু ও মাংসের সাথে মিশিয়ে নিন। এরপর পেঁয়াজ, আদা, রসুন এবং আপনার পছন্দের মশলা দিয়ে ভালোভাবে কষিয়ে পরিমাণ মতো পানি দিয়ে দিন। প্রেসার কুকারে দিলে তাড়াতাড়ি হবে।\n    *   **Waste Reduction:** One-pot meal, so fewer leftover ingredients to worry about.\n    *   **Budget:** Daal and chaal are generally affordable (around ৳40-৳60 per kg depending on the variety). Alu is also cheap (around ৳20-৳30 per kg).\n    *   **Environment:** ডাল এবং চাল আমাদের দেশের কৃষিতে গুরুত্বপূর্ণ, তাই এগুলো ব্যবহার করলে স্থানীয় কৃষকদের সাহায্য করা হয়।\n2.  **Aloo Mangsho Curry (আলু মাংসের কারি):** Alu and mangsho diye bhalo ekta curry banano jay, ja chaaler shathe serve kora jay.\n\n    *   **Recipe:** Mangsho marinat kore alu diye bhuney chaaler shathe poribeshon korun.\n    *   **Waste Reduction:** Leftover curry can be refrigerated and eaten the next day. If you have extra alu, you can make aloo bhorta (আলু ভর্তা).\n    *   **Budget:** Mangsho'r daam ta ektu besi (around ৳500-৳700 per kg), but you can use a smaller amount to make it budget-friendly.\n    *   **Environment:** চেষ্টা করুন স্থানীয় উৎস থেকে মাংস কিনতে, এতে পরিবহন কমানো যায়।\n3.  **Daal দিয়ে মাংসের ঝোল (Daal diye Mangshor Jhol):** Daal and mangsho mix kore ekta protein-rich jhol banate paren.\n\n    *   **Recipe:** Daal sheddho kore mangsho diye bhalo kore jhol kore nin. Alu o dewa jete pare.\n    *   **Waste Reduction:** Daal and mangsho combined means a filling meal and less likely to overeat.\n    *   **Budget:** Daal is a cheaper protein source than mangsho, making it a good budget option.\n    *   **Environment:** Daal চাষের জন্য কম জলের প্রয়োজন হয়, তাই পরিবেশের জন্য ভালো।\n\nAar kono specific dhoroner recipe jante chan? Ami apnake leftover recipes, budget meal plans, or even local food sharing networks er ব্যাপারে সাহায্য করতে পারি।Let me know what sounds good!\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763720538193",
+      "timestamp": "2025-11-21T10:22:18.193Z",
+      "userMessage": "I have potato, rice and fish today. What should I cook today?",
+      "botResponse": "Assalamu Alaikum! Alu, chaal, aar maach diye toh onek kichu ranna kora jay. Apnar SDG score 50/100, tai ami chesta korbo apnake emon kichu recipe suggest korte, ja healthy-o hobe abar poribesh-বান্ধob-o hobe. Since you’re cooking for one person on a moderate budget, here are a few ideas:\n\n1.  **Maach দিয়ে আলুর ঝোল (Maach diye Alur Jhol):** Alu aar maach diye shadharon kintu shuswadu ekta jhol banano jay, ja chaaler shathe khub bhalo lage.\n\n    *   **Recipe:** প্রথমে আলু হালকা ভেজে তুলে নিন। এরপর মাছ ভেজে তুলে নিন। পেঁয়াজ কুচি ও আদা রসুন বাটা দিয়ে মসলা কষিয়ে আলু দিয়ে কিছুক্ষণ রান্না করুন। পরিমাণ মতো জল দিয়ে মাছ দিয়ে দিন এবং কিছুক্ষণ রান্না করুন।\n    *   **Waste Reduction:** One-pot meal, so less likely to have leftovers. আপনি চাইলে পরিমাণ মতো রান্না করে বাসি হওয়া থেকেও বাঁচাতে পারেন।\n    *   **Budget:** Alu khub-e shosta (around ৳20-৳30 per kg) aar maach'er daam varie kore (৳150-৳400 per kg), but you can use smaller portion to make it budget-friendly.\n    *   **Environment:** Local maach kinle ta transport korte kom energy lage ebong carbon footprint kome.\n    *   **Nutrition:** Provides protein from the fish and carbohydrates from the potato, making it a balanced meal.\n\n2.  **ভাতের সাথে মাছ ভাজা ও আলু ভর্তা (Bhater sathe Maach Bhaja o Alu Bhorta):** Maach bhaja aar alu bhorta Bangladeshe khub popular.\n\n    *   **Recipe:** Alu sheddho kore piyaj, shukna morich diye mekhe nin. Maach ektu halud o lobon diye ভেজে নিন। গরম ভাতের সাথে পরিবেশন করুন।\n    *   **Waste Reduction:** Easy to portion control, ensuring you only cook what you'll eat. Leftover alu bhorta can be stored in the fridge for the next day.\n    *   **Budget:** This is a very budget-friendly option, especially if you use smaller fish.\n    *   **Environment:** Potato farming has a lower environmental impact compared to some other vegetables.\n    *   **Nutrition:** আলু ভর্তা থেকে কার্বোহাইড্রেট ও ভিটামিন এবং মাছ থেকে প্রোটিন পাওয়া যায়।\n\n3.  **আলু ও মাছের চপ (Alu o Maacher Chop):** Alu o maach diye yummy chop banano jay.\n\n    *   **Recipe:** প্রথমে আলু সেদ্ধ করে মেখে নিন। মাছ সেদ্ধ করে কাঁটা ও চামড়া ফেলে দিন। আলু ও মাছ একসাথে মিশিয়ে পেঁয়াজ, কাঁচামরিচ ও মশলা দিয়ে চপ বানিয়ে ডুবো তেলে ভাজুন।\n    *   **Waste Reduction:** If you make too many chop, you can store uncooked chop in the freezer and fry it later.\n    *   **Budget:** আলু ও মাছের সমন্বয়ে তৈরি হওয়ায় এটি বেশ সাশ্রয়ী।\n    *   **Environment:** ডুবো তেলে ভাজার পরিবর্তে এয়ার ফ্রায়ারে ভাজলে তেলের ব্যবহার কম হবে।\n    *   **Nutrition:** মাছের প্রোটিন এবং আলুর কার্বোহাইড্রেট একসাথে হওয়ায় এটি একটি স্বাস্থ্যকর খাবার।\n\nAmi apnar jonno aar kono recipe dekhte pari। আপনি কি জানতে চান কিভাবে খাবার অপচয় কমিয়ে আপনার SDG স্কোর বাড়ানো যায়?Let me know what sounds good!\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721612711",
+      "timestamp": "2025-11-21T10:40:12.711Z",
+      "userMessage": "I have leftover rice and curry yesterday. What should I do it with?",
+      "botResponse": "Okay, great! Here are some ideas for your leftover rice and curry:\n\n*   **Main:** Curry Rice Bowl (Add a fried egg on top for extra protein - approx. 20 BDT)\n*   **Option 1:** Fried Rice (Mix the rice and curry with some chopped vegetables - approx. 30 BDT)\n\nNext step: Try making the curry rice bowl for lunch today!\n",
+      "intent": "leftoverRecipes",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "userId": "convo_test_1763722108",
+  "createdAt": "2025-11-21T10:48:28.748Z",
+  "lastActive": "2025-11-21T10:48:34.584Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722112212",
+      "timestamp": "2025-11-21T10:48:32.212Z",
+      "userMessage": "How to store leftover dal?",
+      "botResponse": "Hello! I can certainly help you with storing leftover dal and reducing food waste.\n\n• Allow the dal to cool completely before refrigerating. Store it in an airtight container in the refrigerator. This can extend its shelf life to 3-4 days.\n\n• You can also freeze dal for longer storage. Divide it into portion-sized containers or freezer bags and freeze for up to 2-3 months.\n\n• Consider making dal paratha with leftover dal. Mix the dal with wheat flour, spices, and a little oil to make a dough. Roll out the parathas and cook them on a griddle. This can cost approximately 25 BDT.\n\nReducing food waste can lower greenhouse gas emissions from landfills.\n\nNext step: Try storing your dal in the refrigerator and use it within the next few days.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722114584",
+      "timestamp": "2025-11-21T10:48:34.584Z",
+      "userMessage": "What about nutrition for vegetarians?",
+      "botResponse": "Hello! I can help with nutrition tips for vegetarians.\n\n• Focus on protein and iron intake for a balanced diet.\n\n• Include lentils (dal) which cost around 60 BDT per kg and spinach (palak) around 30 BDT per kg in your regular meals.\n\n• These nutrients are essential for energy and overall health.\n\nNext step: Try to include one lentil-based dish and one spinach dish in your weekly meal plan.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

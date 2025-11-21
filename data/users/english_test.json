@@ -1,0 +1,37 @@
+{
+  "userId": "english_test",
+  "createdAt": "2025-11-21T10:27:57.740Z",
+  "lastActive": "2025-11-21T10:28:00.807Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720880807",
+      "timestamp": "2025-11-21T10:28:00.807Z",
+      "userMessage": "I have a lot of leftover chicken",
+      "botResponse": "Okay, leftover chicken is great! Here are a few quick recipe ideas for one person on a moderate budget:\n\n• Main Recommendation: Chicken Bhuna with Rice (Prep time: 15 mins, Cost: 60 BDT). It's flavorful and reduces waste.\n   #1: Shred the chicken.\n   #2: Sauté onions, garlic, ginger, and chili.\n   #3: Add turmeric, cumin, and coriander powder.\n   #4: Add the chicken and cook for 5-7 minutes.\n   #5: Serve with rice.\n\n• Alternative 1: Chicken and Vegetable Stir-fry (Prep time: 10 mins, Cost: 70 BDT). Add seasonal vegetables like cabbage or carrots for a healthy and affordable meal.\n• Alternative 2: Chicken Sandwich with Mint Chutney (Prep time: 5 mins, Cost: 50 BDT). A quick and easy option for a light meal.\n\nNext step: Try the Chicken Bhuna recipe tonight. It's tasty and helps reduce food waste, which is good for the environment!\n",
+      "intent": "leftoverRecipes",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

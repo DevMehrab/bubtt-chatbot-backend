@@ -1,0 +1,37 @@
+{
+  "userId": "bengali_test_2",
+  "createdAt": "2025-11-21T10:27:48.242Z",
+  "lastActive": "2025-11-21T10:27:51.547Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720871547",
+      "timestamp": "2025-11-21T10:27:51.547Z",
+      "userMessage": "আমার ডাল নষ্ট হয়ে যাচ্ছে",
+      "botResponse": "আলাইকুম আস্সালাম! ডাল নষ্ট হওয়া একটি সাধারণ সমস্যা। চিন্তা করবেন না, আমি আপনাকে সাহায্য করতে পারি।\n\n• প্রধান পরামর্শ: ডাল দিয়ে ডালপুরি তৈরি করুন (খরচ: ৫০ টাকা)। এটি একটি মুখরোচক খাবার এবং ডাল নষ্ট হওয়া থেকে বাঁচাতে পারে।\n• বিকল্প ১: ডালের স্যুপ তৈরি করুন (খরচ: ৪০ টাকা)।\n• বিকল্প ২: ডাল বাটা দিয়ে সবজি পাকোড়া তৈরি করুন (খরচ: ৬০ টাকা)।\n\nডাল একটি প্রোটিন সমৃদ্ধ খাবার, যা শরীরের জন্য খুবই দরকারি।\n\nপরবর্তী পদক্ষেপ: আজকেই ডালপুরি তৈরির চেষ্টা করুন! এছাড়াও, আমি আপনাকে সাশ্রয়ী মূল্যের খাবারের পরিকল্পনা এবং খাদ্য অপচয় কমাতে সাহায্য করতে পারি।\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

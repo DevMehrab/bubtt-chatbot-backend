@@ -1,0 +1,83 @@
+{
+  "userId": "focus_test_user",
+  "createdAt": "2025-11-21T10:36:46.454Z",
+  "lastActive": "2025-11-21T10:36:54.149Z",
+  "preferences": {
+    "language": "English",
+    "budget": "low",
+    "dietaryPreferences": [
+      "Vegetarian"
+    ],
+    "familySize": 4,
+    "allergies": [
+      "Nuts"
+    ],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721410238",
+      "timestamp": "2025-11-21T10:36:50.238Z",
+      "userMessage": "How long can I store cooked dal?",
+      "botResponse": "Here's how to store cooked dal to reduce waste:\n\n*   Refrigerate cooked dal in an airtight container for up to 3-4 days.\n*   Freeze cooked dal in portioned containers for up to 2-3 months.\n\nTo prevent waste, use leftover dal in:\n\n*   Dal paratha (flatbread): Mix dal with flour and spices to make dough (Approx. 40 BDT).\n\nReducing food waste lowers greenhouse gas emissions in Bangladesh.\n\nNext step: Refrigerate or freeze your dal immediately.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 4,
+        "allergies": [
+          "Nuts"
+        ],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721412274",
+      "timestamp": "2025-11-21T10:36:52.274Z",
+      "userMessage": "What to cook today for 4 people on budget?",
+      "botResponse": "Okay, here's a budget-friendly meal plan for your family of 4:\n\n*   Main: Vegetable Khichuri (lentil and rice stew) with a boiled egg (Approx. 120 BDT)\n*   Alternative: Aloo (potato) and dal curry with rice (Approx. 90 BDT)\n\nShopping tip: Buy vegetables from the local market for better prices.\n\nNext step: Check your pantry to see what ingredients you already have.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 4,
+        "allergies": [
+          "Nuts"
+        ],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721414149",
+      "timestamp": "2025-11-21T10:36:54.149Z",
+      "userMessage": "I have leftover rice, what can I make?",
+      "botResponse": "Okay, here are ideas for leftover rice:\n\n*   Rice cutlets: Mix rice with mashed potatoes, spices, and breadcrumbs, then fry (Approx. 60 BDT).\n*   Rice porridge: Cook rice with milk, sugar, and cardamom (Approx. 40 BDT).\n\nTotal cooking time: 20-30 minutes.\n\nNext step: Choose a recipe and check your ingredients.\n",
+      "intent": "leftoverRecipes",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 4,
+        "allergies": [
+          "Nuts"
+        ],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

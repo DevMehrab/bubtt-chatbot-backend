@@ -1,0 +1,67 @@
+{
+  "userId": "convo_test_1763722114",
+  "createdAt": "2025-11-21T10:48:34.626Z",
+  "lastActive": "2025-11-21T10:48:40.045Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722116655",
+      "timestamp": "2025-11-21T10:48:36.655Z",
+      "userMessage": "How to store leftover dal?",
+      "botResponse": "Hello! I'm here to help you reduce food waste.\n\n• Refrigerate leftover dal in an airtight container. It will last for 3-4 days.\n\n• You can also freeze it for longer storage, up to 2-3 months. Thaw it completely before reheating.\n\n• Consider making dal paratha. Mix the leftover dal with wheat flour and spices to make a dough. Fry the parathas on a skillet. This can cost around 25 BDT.\n\nReducing food waste helps lower greenhouse gas emissions from landfills.\n\nNext step: Refrigerate your dal immediately in a sealed container to extend its life.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722118436",
+      "timestamp": "2025-11-21T10:48:38.436Z",
+      "userMessage": "What about nutrition for vegetarians?",
+      "botResponse": "Hello! I'm here to help you eat healthy on a budget.\n\n• Focus on getting enough protein and iron.\n\n• Consider lentils (dal) which cost around 60 BDT per kg, and spinach (palong shak) which costs around 20 BDT per bunch.\n\n• Iron and protein are important for energy and overall health.\n\nNext step: Try adding more lentils and spinach to your diet this week.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722120045",
+      "timestamp": "2025-11-21T10:48:40.045Z",
+      "userMessage": "Can you help with meal planning?",
+      "botResponse": "Hello! I'm here to help you plan some affordable meals.\n\n• Main meal: Chicken and vegetable curry with rice (approx. 80 BDT). This is a balanced meal with protein and essential nutrients.\n\n• Cheaper alternative: Egg curry with rice (approx. 50 BDT). This is a good source of protein and is budget-friendly.\n\nNext step: When buying vegetables, check local markets for the best deals.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

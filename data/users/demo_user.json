@@ -1,0 +1,58 @@
+{
+  "userId": "demo_user",
+  "createdAt": "2025-11-21T10:38:45.865Z",
+  "lastActive": "2025-11-21T10:39:04.076Z",
+  "preferences": {
+    "language": "English",
+    "budget": "low",
+    "dietaryPreferences": [
+      "Vegetarian"
+    ],
+    "familySize": 4,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763721527802",
+      "timestamp": "2025-11-21T10:38:47.802Z",
+      "userMessage": "How to store leftover rice?",
+      "botResponse": "Here's how to store leftover rice to reduce waste:\n\n*   **Storage:** Cool quickly, then refrigerate in an airtight container. Use within 1-2 days.\n\n*   **Waste Prevention Recipe:** Rice pakoras (approx. 40 BDT). Mix rice with besan (gram flour), spices, and vegetables. Fry until golden.\n\n*   **Environmental Benefit:** Reduces methane emissions from landfill decomposition.\n\nNext step: Refrigerate your rice promptly.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 4,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763721544076",
+      "timestamp": "2025-11-21T10:39:04.076Z",
+      "userMessage": "How to store leftover rice?",
+      "botResponse": "Here's how to store leftover rice to reduce waste:\n\n*   **Storage:** Cool and refrigerate quickly in an airtight container. Use within 1-2 days to prevent spoilage.\n*   **Waste Prevention Recipe:** Rice fritters (approx. 30 BDT). Mix rice with spices and vegetables, then fry. This avoids throwing it away.\n*   **Environmental Benefit:** Reduces methane emissions from decomposing food in landfills, lowering your carbon footprint.\n\nNext step: Refrigerate your rice promptly.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "low",
+        "dietaryPreferences": [
+          "Vegetarian"
+        ],
+        "familySize": 4,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 2,
+    "sdgScore": 50
+  }
+}

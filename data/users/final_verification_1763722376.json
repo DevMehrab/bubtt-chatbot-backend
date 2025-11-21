@@ -1,0 +1,67 @@
+{
+  "userId": "final_verification_1763722376",
+  "createdAt": "2025-11-21T10:52:56.092Z",
+  "lastActive": "2025-11-21T10:53:05.462Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722379067",
+      "timestamp": "2025-11-21T10:52:59.068Z",
+      "userMessage": "How to store dal?",
+      "botResponse": "Hello! I can help you with storing dal to reduce waste.\n\n• Store cooked dal in an airtight container in the refrigerator. It will last for 3-4 days.\n\n• For longer storage, freeze cooked dal in portions. It can last for up to 2 months.\n\n• Dry dal should be stored in an airtight container in a cool, dark, and dry place. It can last for up to 1 year.\n\n• Consider making dal paratha (approx. 40 BDT) from leftover dal to prevent waste.\n\nReducing food waste helps lower greenhouse gas emissions in Bangladesh.\n\nNext step: Check your dal storage and ensure it's properly sealed.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722382035",
+      "timestamp": "2025-11-21T10:53:02.035Z",
+      "userMessage": "What vegetables for vitamins?",
+      "botResponse": "Hello! I can definitely guide you on vegetables rich in vitamins.\n\n• Focus on vegetables that are dark green, red, and orange, as they are usually packed with vitamins.\n\n• Carrots (approx. 20 BDT per kg) are a good source of Vitamin A.\n\n• Spinach (approx. 30 BDT per kg) provides plenty of Vitamin K and other essential nutrients.\n\nGetting enough vitamins is crucial for overall health and energy.\n\nNext step: Consider adding carrots or spinach to your next meal.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722385462",
+      "timestamp": "2025-11-21T10:53:05.462Z",
+      "userMessage": "500 BDT meal plan?",
+      "botResponse": "Hello! I can help you create a meal plan for 500 BDT.\n\n• Main suggestion: Chicken and vegetable curry with rice (approx. 250 BDT). Provides protein and essential vitamins.\n\n• Cheaper alternative: Egg and potato curry with dal and rice (approx. 180 BDT).\n\nShopping tip: Buy seasonal vegetables from local markets for better prices.\nNext step: Plan your meals for the week using these suggestions.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

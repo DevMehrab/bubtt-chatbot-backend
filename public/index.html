@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌿 NourishAI - Food Waste Reduction Chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h1 class="logo">🌿 NourishAI</h1>
+          <p class="tagline">Reduce waste, eat smart</p>
+        </div>
+
+        <div class="user-section">
+          <h3 style="color: #2ecc71; margin-bottom: 10px; font-size: 14px">
+            👤 User Account
+          </h3>
+          <input
+            type="text"
+            id="userIdInput"
+            placeholder="Enter User ID"
+            class="user-input"
+            value="user123"
+          />
+          <button
+            id="updateUserBtn"
+            class="btn btn-secondary"
+            style="width: 100%; margin-bottom: 10px"
+          >
+            Create/Load User
+          </button>
+
+          <!-- User Preferences Form (Collapsible) -->
+          <div
+            id="preferencesForm"
+            class="preferences-form"
+            style="display: none; margin-top: 10px"
+          >
+            <h4 style="color: #bdc3c7; font-size: 12px; margin-bottom: 8px">
+              Preferences
+            </h4>
+
+            <div class="pref-group">
+              <label style="font-size: 11px">Budget Level:</label>
+              <select
+                id="budgetLevel"
+                class="user-input"
+                style="padding: 6px; font-size: 12px"
+              >
+                <option value="low">Low (100-150 BDT/day)</option>
+                <option value="moderate" selected>
+                  Moderate (150-250 BDT/day)
+                </option>
+                <option value="high">High (250+ BDT/day)</option>
+              </select>
+            </div>
+
+            <div class="pref-group">
+              <label style="font-size: 11px">Family Size:</label>
+              <input
+                type="number"
+                id="familySize"
+                class="user-input"
+                placeholder="Number of people"
+                value="1"
+                min="1"
+                max="20"
+                style="padding: 6px; font-size: 12px"
+              />
+            </div>
+
+            <div class="pref-group">
+              <label style="font-size: 11px">Dietary Preferences:</label>
+              <input
+                type="text"
+                id="dietaryPrefs"
+                class="user-input"
+                placeholder="e.g., Vegetarian, Vegan"
+                style="padding: 6px; font-size: 12px"
+              />
+            </div>
+
+            <div class="pref-group">
+              <label style="font-size: 11px">Allergies:</label>
+              <input
+                type="text"
+                id="allergies"
+                class="user-input"
+                placeholder="e.g., Peanuts, Shellfish"
+                style="padding: 6px; font-size: 12px"
+              />
+            </div>
+
+            <button
+              id="savePrefsBtn"
+              class="btn btn-primary"
+              style="
+                width: 100%;
+                margin-top: 8px;
+                padding: 8px;
+                font-size: 12px;
+              "
+            >
+              Save Preferences
+            </button>
+          </div>
+
+          <button
+            id="togglePrefsBtn"
+            class="btn btn-secondary"
+            style="width: 100%; margin-top: 8px; font-size: 12px"
+          >
+            ⚙️ Preferences
+          </button>
+        </div>
+
+        <nav class="sidebar-nav">
+          <button class="nav-btn active" data-section="chat">💬 Chat</button>
+          <button class="nav-btn" data-section="analytics">📊 Analytics</button>
+          <button class="nav-btn" data-section="inventory">📦 Inventory</button>
+          <button class="nav-btn" data-section="meal-plan">
+            🍽️ Meal Plans
+          </button>
+          <button class="nav-btn" data-section="sdg">🌍 SDG Score</button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <button id="clearHistoryBtn" class="btn btn-danger">
+            Clear History
+          </button>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Chat Section -->
+        <section id="chat-section" class="content-section active">
+          <div class="chat-header">
+            <h2>💬 Chat with NourishAI</h2>
+            <p>
+              Ask me anything about food waste reduction, meal planning, and
+              nutrition!
+            </p>
+          </div>
+
+          <div class="chat-container">
+            <div id="chatMessages" class="chat-messages">
+              <div class="message bot-message">
+                <div class="message-content">
+                  <p>
+                    👋 Hello! I'm NourishAI, your food waste reduction
+                    assistant. How can I help you today?
+                  </p>
+                  <small
+                    >Suggest: "What meals can I make?", "Show my SDG score",
+                    "Add food to inventory"</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="chat-input-area">
+              <input
+                type="text"
+                id="chatInput"
+                placeholder="Type your message... (e.g., 'What should I cook?')"
+                class="chat-input"
+              />
+              <button id="sendBtn" class="btn btn-primary send-btn">
+                <span>Send</span>
+                <span class="send-icon">→</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Analytics Section -->
+        <section id="analytics-section" class="content-section">
+          <div class="section-header">
+            <h2>📊 Your Analytics</h2>
+          </div>
+
+          <div class="analytics-grid">
+            <div class="card">
+              <h3>🎯 SDG Score</h3>
+              <div id="sdgScoreDisplay" class="score-display">
+                <div class="score-number">0</div>
+                <div class="score-label">/100</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>♻️ Waste Reduction</h3>
+              <div id="wasteReduction" class="stat-display">0%</div>
+            </div>
+
+            <div class="card">
+              <h3>🍎 Nutrition Score</h3>
+              <div id="nutritionScore" class="stat-display">0%</div>
+            </div>
+
+            <div class="card">
+              <h3>📈 Improvement Potential</h3>
+              <div id="improvementPotential" class="stat-display">+0%</div>
+            </div>
+          </div>
+
+          <div class="card full-width">
+            <h3>📋 Detailed Breakdown</h3>
+            <div id="analyticsDetails" class="details-section">
+              <p>Load analytics to see details...</p>
+            </div>
+          </div>
+
+          <button id="loadAnalyticsBtn" class="btn btn-primary">
+            Load My Analytics
+          </button>
+        </section>
+
+        <!-- Inventory Section -->
+        <section id="inventory-section" class="content-section">
+          <div class="section-header">
+            <h2>📦 Your Inventory</h2>
+          </div>
+
+          <div class="inventory-controls">
+            <input
+              type="text"
+              id="itemName"
+              placeholder="Item name"
+              class="input-field"
+            />
+            <input
+              type="number"
+              id="itemQuantity"
+              placeholder="Quantity"
+              class="input-field"
+            />
+            <input type="date" id="itemExpiry" class="input-field" />
+            <button id="addItemBtn" class="btn btn-primary">Add Item</button>
+          </div>
+
+          <div id="inventoryList" class="inventory-list">
+            <p>Loading inventory...</p>
+          </div>
+
+          <button id="loadInventoryBtn" class="btn btn-secondary">
+            Refresh Inventory
+          </button>
+        </section>
+
+        <!-- Meal Plan Section -->
+        <section id="meal-plan-section" class="content-section">
+          <div class="section-header">
+            <h2>🍽️ Meal Planning</h2>
+          </div>
+
+          <div class="meal-plan-controls">
+            <button id="generateMealBtn" class="btn btn-primary">
+              Generate Daily Plan
+            </button>
+            <button id="generateWeeklyBtn" class="btn btn-secondary">
+              Generate Weekly Plan
+            </button>
+          </div>
+
+          <div id="mealPlanContent" class="meal-plan-content">
+            <p>
+              Click a button to generate meal plans based on your inventory.
+            </p>
+          </div>
+        </section>
+
+        <!-- SDG Score Section -->
+        <section id="sdg-section" class="content-section">
+          <div class="section-header">
+            <h2>🌍 SDG Impact Score</h2>
+          </div>
+
+          <div class="sdg-content">
+            <div class="card">
+              <h3>Personal SDG Score</h3>
+              <div id="personalSDGScore" class="big-score">--</div>
+              <p id="scoreInterpretation" class="interpretation">Loading...</p>
+            </div>
+
+            <div class="card full-width">
+              <h3>🎯 UN Sustainable Development Goals</h3>
+              <ul id="sdgGoals" class="goals-list">
+                <li>Goal #2: Zero Hunger</li>
+                <li>Goal #12: Responsible Consumption & Production</li>
+              </ul>
+            </div>
+
+            <div class="card full-width">
+              <h3>📊 Waste Analysis</h3>
+              <div id="wasteAnalysis" class="analysis-section">
+                <p>Loading waste analysis...</p>
+              </div>
+            </div>
+
+            <div class="card full-width">
+              <h3>🥗 Nutrition Analysis</h3>
+              <div id="nutritionAnalysis" class="analysis-section">
+                <p>Loading nutrition analysis...</p>
+              </div>
+            </div>
+
+            <div class="card full-width">
+              <h3>💡 Recommendations</h3>
+              <ul id="recommendations" class="recommendations-list">
+                <li>Loading recommendations...</li>
+              </ul>
+            </div>
+
+            <button id="loadSDGBtn" class="btn btn-primary">
+              Load SDG Profile
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="spinner hidden">
+      <div class="spinner-ring"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

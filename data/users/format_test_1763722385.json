@@ -1,0 +1,37 @@
+{
+  "userId": "format_test_1763722385",
+  "createdAt": "2025-11-21T10:53:05.506Z",
+  "lastActive": "2025-11-21T10:53:07.625Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722387625",
+      "timestamp": "2025-11-21T10:53:07.625Z",
+      "userMessage": "How to store leftover biryani?",
+      "botResponse": "Hello! Here's how to store leftover biryani and reduce food waste:\n\n• Store leftover biryani in an airtight container in the refrigerator. It can last for 2-3 days.\n\n• Another option is to freeze the biryani in a freezer-safe container. It can last for up to 1 month.\n\n• You can transform leftover biryani into biryani cutlets. Mix the biryani with mashed potatoes, shape them into cutlets, and pan-fry them (estimated cost: 40 BDT).\n\nReducing food waste helps lower greenhouse gas emissions in Bangladesh.\n\nNext step: Refrigerate or freeze your biryani as soon as possible to prevent spoilage.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "userId": "persistence_demo_1763722293",
+  "createdAt": "2025-11-21T10:51:33.781Z",
+  "lastActive": "2025-11-21T10:51:41.956Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722296193",
+      "timestamp": "2025-11-21T10:51:36.193Z",
+      "userMessage": "How to store leftover rice?",
+      "botResponse": "Hello! I can help you with storing leftover rice.\n\nHere are some tips to minimize waste:\n\n•   Cool rice completely, then refrigerate in an airtight container. (Shelf life: 2-4 days)\n\n•   Freeze rice in a freezer-safe bag or container. (Shelf life: 1-2 months)\n\n•   Make fried rice (30 BDT) with leftover rice and vegetables.\n\nReducing food waste helps lower greenhouse gas emissions in Bangladesh.\n\nNext step: Refrigerate or freeze your rice immediately to keep it fresh.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722299277",
+      "timestamp": "2025-11-21T10:51:39.277Z",
+      "userMessage": "What vegetables are rich in vitamins?",
+      "botResponse": "Hello! Here's how to get more vitamins from vegetables.\n\n• Focus on dark leafy greens like spinach (20 BDT/kg) and broccoli (80 BDT/kg).\n\n• Also consider carrots (30 BDT/kg) and sweet potatoes (40 BDT/kg).\n\n• These are easily available in local markets.\n\n• These vegetables help boost your immune system.\n\nNext step: Include one of these vitamin-rich vegetables in your next meal.\n",
+      "intent": "nutritionBalance",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    },
+    {
+      "id": "msg_1763722301956",
+      "timestamp": "2025-11-21T10:51:41.956Z",
+      "userMessage": "Suggest a meal plan for 300 BDT",
+      "botResponse": "Hello! Here is a meal plan idea.\n\n• Main: Chicken and vegetable curry with rice (250 BDT). This provides protein and essential vitamins.\n\n• Cheaper alternative: Egg and lentil curry with rice (150 BDT). This is a balanced and budget-friendly option.\n\nShopping tip: Visit local markets for fresh produce to save money.\n\nNext step: Choose one of these options for your next meal.\n",
+      "intent": "mealPlanning",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 3,
+    "sdgScore": 50
+  }
+}

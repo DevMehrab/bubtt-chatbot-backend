@@ -1,0 +1,37 @@
+{
+  "userId": "format_test_1763722408",
+  "createdAt": "2025-11-21T10:53:28.133Z",
+  "lastActive": "2025-11-21T10:53:30.377Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722410377",
+      "timestamp": "2025-11-21T10:53:30.377Z",
+      "userMessage": "How to store leftover biryani?",
+      "botResponse": "Hello! I can help you store your leftover biryani to prevent food waste.\n\n• Store leftover biryani in an airtight container in the refrigerator. It will stay fresh for 2-3 days.\n\n• You can also freeze it in a freezer-safe container for up to 1 month.\n\n• To prevent waste, consider making biryani rice cakes (estimated cost: 40 BDT). Mix the leftover biryani with a beaten egg and some spices, form into small cakes, and pan-fry until golden brown.\n\nReducing food waste helps lower greenhouse gas emissions in Bangladesh.\n\nNext step: Store your biryani properly in the refrigerator to enjoy it later.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

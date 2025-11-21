@@ -1,0 +1,37 @@
+{
+  "userId": "bengali_test",
+  "createdAt": "2025-11-21T10:26:13.320Z",
+  "lastActive": "2025-11-21T10:26:16.702Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720776702",
+      "timestamp": "2025-11-21T10:26:16.702Z",
+      "userMessage": "আমার ডাল খারাপ হচ্ছে",
+      "botResponse": "Oh no, that's a shame about your dal going bad! Let's see what we can do to prevent that in the future and how to best use dal.\n\n• **Main Suggestion:** Store dal properly. Keep it in an airtight container in a cool, dry place. This can prevent spoilage for a longer time.\n• **Budget-Friendly Tip:** For moderate budgets, buy dal in smaller quantities more frequently from your local bazaar to ensure freshness. Look for options at Korail or Mohammadpur Krishi Market.\n• **Food Waste Reduction:** Consider making \"Dal Puri\" (Lentil Stuffed Flatbread) - a delicious way to use up dal before it spoils completely (Estimated cost: 40 BDT). This also helps reduce food waste.\n\nI can also help you with creative recipes using leftover ingredients. Would you like to explore that?\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

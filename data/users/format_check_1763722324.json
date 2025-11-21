@@ -1,0 +1,37 @@
+{
+  "userId": "format_check_1763722324",
+  "createdAt": "2025-11-21T10:52:04.837Z",
+  "lastActive": "2025-11-21T10:52:07.439Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763722327439",
+      "timestamp": "2025-11-21T10:52:07.439Z",
+      "userMessage": "How to prevent food waste?",
+      "botResponse": "Hello! I'm here to help you reduce food waste.\n\nHere are some practical tips:\n\n• Proper Storage: Store vegetables in airtight containers in the refrigerator to extend their shelf life. Fruits like bananas can be kept in a cool, dark place.\n\n• Repurpose Leftovers: Use leftover vegetables to make a mixed vegetable curry (approx. 50 BDT).\n\nReducing food waste lessens environmental impact in Bangladesh.\n\nNext step: Start by properly storing your vegetables and fruits today.\n",
+      "intent": "wasteReduction",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

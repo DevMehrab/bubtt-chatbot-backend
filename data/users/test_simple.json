@@ -1,0 +1,37 @@
+{
+  "userId": "test_simple",
+  "createdAt": "2025-11-21T10:17:11.100Z",
+  "lastActive": "2025-11-21T10:17:16.184Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720236184",
+      "timestamp": "2025-11-21T10:17:16.184Z",
+      "userMessage": "Hi",
+      "botResponse": "Namaste! 👋 I'm NourishAI, and I'm here to help you reduce food waste, eat healthier, and save money – all while considering our beautiful Bangladesh! I see your current SDG score is 50/100. Let's work together to improve that!\n\nIt looks like you're just starting out. Here's how I can help you today:\n\n1.  **Budget-Friendly Meal Planning:** Since you're a single person with a moderate budget, I can create a weekly meal plan for you. This will help you buy only what you need, reducing the chance of food going bad. We can focus on seasonal ingredients like *lau* (bottle gourd) and *pui shak* (Malabar spinach) which are delicious and affordable right now.\n    *   Why: Planning helps prevent impulse buys and ensures you use ingredients efficiently.\n    *   Environmental Impact: Reducing food waste also means less methane gas released from landfills, a big environmental concern in Bangladesh.\n\n2.  **Creative Leftover Transformation:** I can give you some great recipe ideas to use up those leftovers! Say you have leftover *dal* (lentil soup). We could turn it into delicious *dal puri* (fried lentil bread) for breakfast!\n    *   Why: Repurposing leftovers prevents food waste and adds variety to your meals.\n    *   Cost: This helps save money by using up ingredients you already have.\n\n3.  **Food Storage Tips:** Many people in Bangladesh struggle with keeping food fresh for longer. I can provide specific storage tips for common items like rice, onions, and potatoes to extend their shelf life.\n    *   Why: Proper storage significantly reduces spoilage.\n    *   Example: Storing onions and potatoes separately in a cool, dark place prevents them from sprouting quickly.\n\nJust tell me what you'd like to focus on! We can start with creating a meal plan, exploring leftover recipes, learning about storage techniques, or anything else that helps you on your journey to reduce food waste and eat well. Let me know! 😊\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}

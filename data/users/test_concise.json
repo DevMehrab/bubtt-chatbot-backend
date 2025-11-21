@@ -1,0 +1,37 @@
+{
+  "userId": "test_concise",
+  "createdAt": "2025-11-21T10:25:30.852Z",
+  "lastActive": "2025-11-21T10:25:35.758Z",
+  "preferences": {
+    "language": "English",
+    "budget": "moderate",
+    "dietaryPreferences": [],
+    "familySize": 1,
+    "allergies": [],
+    "location": "Bangladesh"
+  },
+  "inventory": [],
+  "conversationHistory": [
+    {
+      "id": "msg_1763720735758",
+      "timestamp": "2025-11-21T10:25:35.758Z",
+      "userMessage": "আমার কাছে অনেক ভাত আছে",
+      "botResponse": "That's great! We can definitely put that rice to good use. Here are a few ideas:\n\n*   **Main Suggestion:** *Bhater Pulao* (পোলাও) - You can easily turn leftover rice into a flavorful pulao with some vegetables (around 50 BDT) and spices. It's a quick and satisfying meal.\n\n*   **Alternative 1:** *Bhaja Bhat* (ভাজা ভাত) - A simple fried rice with egg (15 BDT), onions, and chili. Very quick and easy!\n\n*   **Alternative 2:** *Rice Cutlets* (চালের চপ) - Mix the rice with mashed potatoes, spices, and shape into cutlets. Shallow fry them for a tasty snack (about 40 BDT).\n\nI can also help you create a budget meal plan or find creative recipes using other leftovers. Just let me know what you'd like to try!\n\nNext step: Try making bhaja bhat for dinner tonight!\n",
+      "intent": "general",
+      "userPreferences": {
+        "language": "English",
+        "budget": "moderate",
+        "dietaryPreferences": [],
+        "familySize": 1,
+        "allergies": [],
+        "location": "Bangladesh"
+      }
+    }
+  ],
+  "statistics": {
+    "totalWasteReduced": 0,
+    "mealsPlanedCount": 0,
+    "messagesCount": 1,
+    "sdgScore": 50
+  }
+}
