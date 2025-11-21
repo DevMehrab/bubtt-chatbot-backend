@@ -755,32 +755,3 @@ function showToast(message, type = "default") {
     toast.classList.remove("show");
   }, 3000);
 }
-
-// ============================================================================
-// Auto-save conversation to localStorage
-// ============================================================================
-
-window.addEventListener("beforeunload", () => {
-  if (currentConversationId) {
-    localStorage.setItem(
-      "lastConversationId",
-      JSON.stringify({
-        conversationId: currentConversationId,
-        userId: currentUserId,
-      })
-    );
-  }
-});
-
-// Load last conversation if available
-window.addEventListener("load", () => {
-  const lastConv = localStorage.getItem("lastConversationId");
-  if (lastConv) {
-    try {
-      const { conversationId } = JSON.parse(lastConv);
-      currentConversationId = conversationId;
-    } catch (e) {
-      console.log("Could not restore last conversation");
-    }
-  }
-});
