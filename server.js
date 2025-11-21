@@ -10,7 +10,8 @@ require("dotenv").config();
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Initialize Gemini API
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyDaB12Xx2tqyV2g0VcKZlwx1_EvZM52y8g";
+const GEMINI_API_KEY =
+  process.env.GEMINI_API_KEY || "AIzaSyDaB12Xx2tqyV2g0VcKZlwx1_EvZM52y8g";
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Import services
@@ -46,7 +47,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://devmehrab.github.io/bubt-chatbot-frontend/",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public")); // Serve static files from public folder
@@ -65,7 +73,8 @@ app.get("/", (req, res) => {
     documentation: {
       chat: "POST /api/chat - Send message to chatbot",
       analytics: "GET /api/user/:userId/analytics - Get sustainability metrics",
-      sdgProfile: "GET /api/user/:userId/sdg-profile - Complete SDG impact scoring with insights",
+      sdgProfile:
+        "GET /api/user/:userId/sdg-profile - Complete SDG impact scoring with insights",
       sdgInsights: "POST /api/user/:userId/sdg-insights - Weekly AI insights",
       inventory: "GET /api/user/:userId/inventory - View current inventory",
       mealPlan: "GET /api/user/:userId/meal-plan - Generate meal plan",
@@ -91,17 +100,25 @@ app.get("/", (req, res) => {
     ],
     sdgFeatures: {
       personalSDGScore: "0-100 scale based on waste reduction & nutrition",
-      nutritionTracking: "Analyzes dietary variety (fruits, veggies, proteins, grains, dairy)",
+      nutritionTracking:
+        "Analyzes dietary variety (fruits, veggies, proteins, grains, dairy)",
       weeklyInsights: "Compares progress week-over-week with AI commentary",
-      actionableRecommendations: "Specific steps to improve score (e.g., +10% for focusing on veggies)",
-      unGoals: ["Goal #2: Zero Hunger", "Goal #12: Responsible Consumption & Production"],
+      actionableRecommendations:
+        "Specific steps to improve score (e.g., +10% for focusing on veggies)",
+      unGoals: [
+        "Goal #2: Zero Hunger",
+        "Goal #12: Responsible Consumption & Production",
+      ],
     },
     timestamp: new Date(),
   });
 });
 
 app.get("/health", (req, res) => {
-  res.json({ status: "✅ NourishAI Chatbot is running", timestamp: new Date() });
+  res.json({
+    status: "✅ NourishAI Chatbot is running",
+    timestamp: new Date(),
+  });
 });
 
 // ============================================================================
@@ -153,17 +170,17 @@ app.post("/api/chat", async (req, res) => {
     // Build conversation history for Gemini (fix conversation history format)
     const conversationHistory = UserManager.getConversationHistory(userId, 5);
     const geminiHistory = [];
-    
+
     // Build proper alternating history
     for (let i = 0; i < conversationHistory.length; i++) {
       const conv = conversationHistory[i];
-      
+
       // Add user message
       geminiHistory.push({
         role: "user",
         parts: [{ text: conv.userMessage }],
       });
-      
+
       // Add bot response
       geminiHistory.push({
         role: "model",
@@ -747,8 +764,7 @@ app.get("/api/user/:userId/inventory", async (req, res) => {
 app.post("/api/user/:userId/inventory", async (req, res) => {
   try {
     const { userId } = req.params;
-    const { customName, quantity, unit, expirationDate, foodItemId } =
-      req.body;
+    const { customName, quantity, unit, expirationDate, foodItemId } = req.body;
 
     if (!customName || !quantity || !unit || !expirationDate) {
       return res.status(400).json({
@@ -1226,7 +1242,9 @@ async function start() {
     console.log("✅ Database ready (Mock mode - no real DB required)");
 
     app.listen(PORT, () => {
-      console.log(`\n🚀 NourishAI Chatbot Server running on http://localhost:${PORT}`);
+      console.log(
+        `\n🚀 NourishAI Chatbot Server running on http://localhost:${PORT}`
+      );
       console.log(`📚 API Docs:`);
       console.log(`   POST   /api/chat - Send message to chatbot`);
       console.log(`   GET    /api/user/:userId/analytics - Get analytics`);
@@ -1238,7 +1256,9 @@ async function start() {
       console.log(`   GET    /api/user/:userId/meal-plan - Generate meal plan`);
       console.log(`   GET    /api/user/:userId/weekly-meal-plan - Weekly plan`);
       console.log(`   GET    /api/recipe/:recipeName - Get recipe`);
-      console.log(`   GET    /api/recipes/by-ingredient/:ingredient - Recipes\n`);
+      console.log(
+        `   GET    /api/recipes/by-ingredient/:ingredient - Recipes\n`
+      );
     });
   } catch (error) {
     console.error("Failed to start server:", error);
